@@ -1,14 +1,20 @@
 <template>
-  <HomePage msg="Nick Dongoske"/>
+  <Header msg="Nick Dongoske"/>
+  <About/>
+  <Links />
 </template>
 
 <script>
-import HomePage from './components/HomePage.vue'
+import Header from './components/Header.vue'
+import About from './components/About.vue'
+import Links from './components/Links.vue'
 
 export default {
   name: 'App',
   components: {
-    HomePage
+    Header,
+    About,
+    Links,
   }
 }
 </script>
