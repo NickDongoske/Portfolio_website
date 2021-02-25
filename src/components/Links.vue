@@ -28,6 +28,11 @@ export default {
     height: 100px;
     width: 100px;
   }
+  .img-link:hover {
+    cursor: pointer;
+
+  }
+  
   .poop {
     height: 100px;
     width: 100px;
