@@ -1,14 +1,11 @@
 <template>
   <div>
-    <p>Just a yung warthog</p>
+    <p>Just a young warthog</p>
   </div>
 </template>
 
 <script>
 export default {
   name: 'About',
-  props: {
-    about: String
   }
-}
 </script>
