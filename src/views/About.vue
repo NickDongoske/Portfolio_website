@@ -1,5 +1,6 @@
 <template>
-  <div class="about">
-    <h1>This is an about page</h1>
-  </div>
+<router-view/>
+  
+    <router-link style="text-decoration: none; color: inherit;" to="/">Home</router-link>
+  <router-view/>
 </template>

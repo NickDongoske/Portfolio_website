@@ -1,12 +1,14 @@
 <template>
 <Home/>
-<router-view/>
-  <div id="nav">
-    <!-- <router-link to="/">Home</router-link> | -->
-    <router-link style="text-decoration: none; color: inherit;" to="/about">About</router-link>
+  
+  <router-view/>
+  <div>
+    
+    <!-- <router-link style="text-decoration: none; color: inherit;" to="/about">About</router-link> -->
   </div>
-  <!-- <router-view/> -->
 </template>
+
+
 
 <style>
 #app {
@@ -26,7 +28,8 @@
   color: #2c3e50;
 }
 
-#nav a.router-link-exact-active {
-  color: #42b983;
-}
+
 </style>
+
+
+
