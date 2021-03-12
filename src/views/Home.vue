@@ -5,7 +5,6 @@
     <Links/>
     <router-view/>
   <div>
-    <!-- <router-link to="/">Home</router-link> | -->
     <router-link style="text-decoration: none; color: inherit;" to="/about">About</router-link>
   </div>
   </div>
