@@ -1,28 +1,10 @@
 <template>
-  <Home msg="Nick Dongoske"/>
-  <Image/>
-  <Links/>
-  <Navigation/>
+<Home/>
+<router-view/>
 </template>
 
-<script>
-import Home from './components/Home.vue'
-// import About from './components/About.vue'
-import Image from './components/Image.vue'
-import Links from './components/Links.vue'
-import Navigation from './components/Navigation.vue'
 
-export default {
-  name: 'App',
-  components: {
-    Home,
-    // About,
-    Image,
-    Links,
-    Navigation,
-  }
-}
-</script>
+
 
 <style>
 #app {
@@ -31,7 +13,19 @@ export default {
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
   color: #2c3e50;
-  margin-top: 60px;
-
 }
+
+#nav {
+  padding: 30px;
+}
+
+#nav a {
+  font-weight: bold;
+  color: #2c3e50;
+}
+
+
 </style>
+
+
+
