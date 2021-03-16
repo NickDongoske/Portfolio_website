@@ -3,10 +3,8 @@
     <ul>
       <li>
         <router-link class="nav-link" to="/about">About</router-link>
-        <!-- <button id="about-btn" -->
       </li>
       <br>
-      <!-- <li>Fun</li> -->
     </ul>
   </div>
   

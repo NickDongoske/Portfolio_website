@@ -1,5 +1,5 @@
 <template>
-  <button @click="play">Play a sound</button>
+  <button @click="play">Click Me</button>
 </template>
 
 <script>

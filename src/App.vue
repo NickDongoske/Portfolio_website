@@ -1,11 +1,6 @@
 <template>
 <Home/>
-  
-  <router-view/>
-  <div>
-    
-    <!-- <router-link style="text-decoration: none; color: inherit;" to="/about">About</router-link> -->
-  </div>
+<router-view/>
 </template>
 
 

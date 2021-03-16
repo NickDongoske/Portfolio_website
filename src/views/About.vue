@@ -2,12 +2,11 @@
 <template>
  <h1>About</h1>
  <br>
-  <div id="app">
-    <button v-on:click="play" type="button">Click Me</button>
-  </div>
-   <router-view/>
-  <router-link style="text-decoration: none; color: inherit;" to="/">Home</router-link>
+ <div>
   <Audio/>
+  <router-view/>
+  <router-link style="text-decoration: none; color: inherit;" to="/">Home</router-link>
+ </div>
 </template>
 
 
@@ -25,6 +24,10 @@ export default {
 
 
 <style scoped>
+div {
+  display: flex;  
+  flex-direction: column;
+}
 button {
   border: none;
   background: none;
