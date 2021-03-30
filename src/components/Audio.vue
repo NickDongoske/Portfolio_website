@@ -23,19 +23,9 @@ img {
   width: 100px;
   margin: 0px;
 }
-button {
-  margin: 0px;
-  padding: 0px;
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    border: none;
-}
-button:active {
-    outline: none;
-    border: none;
-    box-shadow: none;
-    outline: none !important;
+
+button:focus {
+  outline: none;
 }
 img {
     height: 100px;
