@@ -4,7 +4,7 @@
 
 <script>
 import useSound from 'vue-use-sound'
-import buttonSfx from '/Users/nicholasdongoske/jobsearch/portfolio-website/src/assets/portfolio-fart.mp3'
+import buttonSfx from '/Users/nicholasdongoske/jobsearch/portfolio-website/src/assets/warthog.mp3'
 
 export default {
   setup() {
