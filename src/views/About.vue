@@ -1,6 +1,5 @@
 
 <template>
- <h1>About</h1>
  <h2>Just a young warthog</h2>
  <h3>(Who enjoys coding)</h3>
  <br>

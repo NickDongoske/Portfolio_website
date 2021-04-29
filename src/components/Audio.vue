@@ -4,7 +4,7 @@
 
 <script>
 import useSound from 'vue-use-sound'
-import buttonSfx from '/Users/nicholasdongoske/jobsearch/portfolio-website/src/assets/portfolio-fart.mp3'
+import buttonSfx from '/Users/nicholasdongoske/jobsearch/portfolio-website/src/assets/warthog.mp3'
 
 export default {
   setup() {
@@ -23,19 +23,9 @@ img {
   width: 100px;
   margin: 0px;
 }
-button {
-  margin: 0px;
-  padding: 0px;
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    border: none;
-}
-button:active {
-    outline: none;
-    border: none;
-    box-shadow: none;
-    outline: none !important;
+
+button:focus {
+  outline: none;
 }
 img {
     height: 100px;
